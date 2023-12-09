@@ -1,19 +1,20 @@
-//
-//  ViewController.swift
-//  CapitalCountry
-//
-//  Created by Алибек Рамазан on 11.11.2023.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var startButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
+    @IBAction func startButtonPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction override func unwind(for unwindSegue: UIStoryboardSegue, towards subsequentVC: UIViewController) {}
+    
 
 }
 
